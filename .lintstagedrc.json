@@ -1,0 +1,8 @@
+{
+  "*.ts": [
+    "eslint . --ext .js,.vue,.ts --format pretty"
+  ],
+  "*.vue": [
+    "eslint . --ext .js,.vue,.ts --format pretty"
+  ]
+}
