@@ -41,6 +41,11 @@
 const $q             = useQuasar()
 const leftDrawerOpen = ref(false)
 
+onMounted(() => {
+  if ($q.dark.isActive === false)
+    $q.dark.toggle()
+})
+
 function toggleLeftDrawer () {
   leftDrawerOpen.value = !leftDrawerOpen.value
 }

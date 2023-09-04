@@ -1,0 +1,10 @@
+version: '3'
+services:
+
+  web:
+    build:
+      context: ./
+    environment:
+      - API_URL=https://jsonplaceholder.typicode.com
+    ports:
+      - 3020:3020

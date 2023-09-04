@@ -34,8 +34,8 @@ interface Item {
 
 const menuList: Item[] = [
   {
-    icon     : 'dashboard',
-    label    : 'Card',
+    icon     : 'home',
+    label    : 'Home',
     separator: false,
     link     : '/',
   },
@@ -50,6 +50,12 @@ const menuList: Item[] = [
     label    : 'Notify',
     separator: false,
     link     : '/notify',
+  },
+  {
+    icon     : 'style',
+    label    : 'List',
+    separator: false,
+    link     : '/list',
   },
 ]
 </script>

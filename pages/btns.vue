@@ -1,6 +1,6 @@
 <template>
   <div class="text-h3 q-pa-md">
-    Button
+    Custom theme brand
   </div>
   <div class="q-pa-md q-gutter-sm">
     <q-btn

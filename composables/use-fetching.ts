@@ -1,7 +1,7 @@
-export default function (path: string, opts?: any) {
+export default async function (path: string, opts?: any) {
   const config = useRuntimeConfig()
-  
+
   const url = config.public.apiUrl
 
-  return useFetch(`${url}${path}`, {...opts})
+  return await useFetch(`${url}${path}`, { ...opts })
 }
